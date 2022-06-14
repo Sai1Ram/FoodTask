@@ -1,0 +1,149 @@
+.home {
+    width: 100%;
+    height: 600px;
+    font-size: 3em;
+    font-weight: bold;
+    color: #E99824;
+    font-family: 'Mea Culpa', cursive;
+    gap: 1rem;
+    padding-left: 8rem;
+    padding-top: 2rem;
+}
+.container{
+    background-image: url('../images/vegetables-set-left-black-slate.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home p {
+    width: 60%;
+    color: white;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 2rem;
+}
+
+
+
+.newDishes {
+    width: 70%;
+    height: 30rem;
+    border: 10px rgb(230, 228, 228) solid;
+    transform: translate(-50%, -15%);
+    position: relative;
+    left: 50%;
+    text-align: center;
+    background: linear-gradient(-120deg, white, rgb(175, 175, 175), rgb(109, 107, 107));
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: black;
+    z-index: 3;
+
+}
+
+.newDishes::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+
+    background: url("../images/top-view-meals-tasty-yummy-different-pastries-dishes-brown-surface.jpg") no-repeat center center / cover;
+
+}
+
+.newDishes h1 {
+    font-family: 'Mea Culpa', cursive;
+    color: #581845;
+    letter-spacing: .45rem;
+}
+
+@media screen and (max-width: 1080px) {
+    .home {
+        height: 500px;
+        font-size: 2em;
+        padding-left: 5rem;
+    }
+
+    .home p {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .home {
+        height: 450px;
+        padding-left: 3rem;
+        font-size: 1.5em;
+    }
+
+    .home p {
+        font-size: 1.5rem;
+    }
+
+    .newDishes {
+        height: 25rem;
+        font-size: 1rem;
+    }
+
+    .newDishes h1 {
+        letter-spacing: 0.25rem;
+    }
+
+   
+}
+
+@media screen and (max-width: 670px) {
+    .home {
+        font-size: 1em;
+    }
+    .container{
+        background: url("../images/top-view-sliced-shaurma-delicious-meat-sandwich-inside-brown-plate-black2.jpg") no-repeat fixed center center / cover;
+
+    }
+    .home p {
+        font-size: 1rem;
+    }
+    .newDishes {
+        height: 19rem;
+        font-size: 0.7rem;
+    }
+    .newDishes h1 {
+        letter-spacing: 0;
+    }
+   
+}
+@media screen and (max-width: 430px) {
+    .home {
+        font-size: 1em;
+        padding-left: 1.5rem;
+    }
+    .home p {
+        font-size: 1rem;
+    }
+    .newDishes {
+        padding: 1.5rem 0.5rem;
+        font-size: 0.6rem;
+        border: 7px rgb(230, 228, 228) solid;
+        height: 17rem;
+    }
+    
+}
+@media screen and (max-width: 230px) {
+    .home {
+        font-size: 0.7em;
+        padding-left: 1rem;
+    }
+    .newDishes {
+        font-size: 0.45rem;
+        padding: 1.5rem 0.5rem;
+        border: 5px rgb(230, 228, 228) solid;
+    }
+   
+}

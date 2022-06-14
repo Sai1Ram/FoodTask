@@ -1,0 +1,50 @@
+.header{
+    padding: 1.5rem 2rem;
+    justify-content: space-between;
+    display: flex;
+}
+.orderHeading {
+    margin:1.5rem 2rem 10rem 2rem;
+    font-family: 'Mea Culpa', cursive;
+    color:#581845 ;
+    font-size: 2rem;
+    font-weight:bold;
+}
+.orderHeading hr{
+    width: 40rem;
+    border-top:2px solid #581845 ;
+}
+.orderTotal{
+    font-size:2rem;
+    font-weight:bold;
+    color: #581845;
+    font-family: 'Mea Culpa', cursive;
+    text-align:end;
+    margin:2rem 2rem 5rem 2rem;
+}
+.orderTotal hr{
+    width: 50rem;
+    border-top: 1px solid #581845;
+    align-self: flex-end;
+}
+@media screen and (max-width:780px) {
+    .orderHeading, .orderTotal{
+        font-size:1.7rem;
+    }
+    .orderHeading hr, .orderTotal hr{
+        width: 30rem;
+    }
+}
+@media screen and (max-width:580px) {
+    .orderHeading, .orderTotal{
+        font-size:1.3rem;
+    }
+    .orderHeading hr, .orderTotal hr{
+        width: 15rem;
+    }
+}
+@media screen and (max-width:380px) {
+    .orderHeading, .orderTotal{
+        font-size:1rem;
+    }
+}

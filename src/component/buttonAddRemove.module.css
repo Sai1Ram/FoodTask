@@ -1,0 +1,14 @@
+span {
+    margin: 0rem 0.5rem;
+}
+.HiIconSm {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width:1.3rem;
+    height: 1.3rem;
+}
+.HiIconSm:hover {
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+}
+.buttonAddRemoveNegative:hover{
+    box-shadow: inset 5px 5px 10px rgba(180, 121, 37, 0.5), -7px -7px 10px rgba(180, 121, 37, 0.5);
+}

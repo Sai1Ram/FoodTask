@@ -1,0 +1,83 @@
+.foodCard {
+    border: 1px solid red;
+    width: 250px;
+    height: 200px;
+    /* margin: 2rem 1rem 6rem 1rem; */
+    position: relative;
+    perspective: 1500px;
+    z-index: 4;
+    border-top: none;
+    border-radius: 10px;
+    background: linear-gradient(120deg, transparent, rgb(168, 158, 158));
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    cursor: darg;
+    transition: height 0.4s ease-in-out;
+}
+
+.image {
+    position: relative;
+    transform: translateY(-40%);
+    width: 80%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+    padding: 0.5rem;
+    /* transform: translateY(-20%); */
+    display: none;
+    font-family: 'Cedarville Cursive', cursive;
+
+}
+
+.foodCard:focus .content {
+    display: block;
+    /* transform: translateY(20px); */
+}
+
+.foodCard:focus .priceClass{
+    top: 190px;
+}
+.foodCard:focus {
+    height: 370px;
+}
+
+.foodCard:focus .image {
+    transform: translateY(-35%);
+}
+
+.priceClass {
+    position: absolute;
+    top: 170px;
+    transform: translateY(-50px);
+    transition: all 1s;
+    text-align: center;
+}
+
+.priceClass button {
+    outline: none;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #F2AB45;
+    font-family: 'Cedarville Cursive', cursive;
+    box-shadow: 7px 7px 10px rgba(180, 121, 37, 0.5);
+    cursor: pointer;
+}
+
+/* .priceClass button:hover {
+    box-shadow: inset 5px 5px 10px rgba(180, 121, 37, 0.5), -7px -7px 10px rgba(180, 121, 37, 0.5);
+} */
+
+.wrap {
+    perspective: 2000px;
+}
+.contentWrap{
+    gap: 1rem;
+}

@@ -1,0 +1,43 @@
+.cartCss{
+    width: 3.4rem;
+    height: 3.4rem;
+    background:linear-gradient(20deg , #F2E2B7, #e2b87e, #F1CA60, #be9459 );
+    /* transform: rotate(45deg); */
+    /* rotate: 45deg; */
+    color: black;
+    border-radius: 1rem;
+    position: fixed;
+    right: 5%;    
+    cursor:pointer;
+    z-index:100;
+}
+/* .cartIcon{
+    transform: rotate(-45deg);
+} */
+.cartNum{
+    border-radius:50%;
+    color: white;
+    background-color: #5f3d0d;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    width:1.5rem;
+    height:1.5rem;
+    font-size:1rem;
+    position: absolute;
+    /* transform: rotate(-45deg); */
+    right: -8px;
+    bottom:-8px;
+}
+@media screen and (max-width:480px){
+    .cartCss{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .cartNum{
+        width: 1rem;
+        height: 1rem;
+        right: -5px;
+        bottom: -5px;
+        font-size:0.7rem;
+    }
+}
