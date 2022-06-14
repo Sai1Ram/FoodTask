@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.3a976902.css",
-    "main.js": "/my-app/static/js/main.a2961a9f.js",
-    "static/media/top-view-meals-tasty-yummy-different-pastries-dishes-brown-surface.jpg": "/my-app/static/media/top-view-meals-tasty-yummy-different-pastries-dishes-brown-surface.29b3af734950ef6a74f6.jpg",
-    "static/media/top-view-sliced-shaurma-delicious-meat-sandwich-inside-brown-plate-black2.jpg": "/my-app/static/media/top-view-sliced-shaurma-delicious-meat-sandwich-inside-brown-plate-black2.0688e92860abe844a3b6.jpg",
-    "static/media/vegetables-set-left-black-slate.jpg": "/my-app/static/media/vegetables-set-left-black-slate.f28aca96eef193d9160d.jpg",
-    "index.html": "/my-app/index.html",
-    "main.3a976902.css.map": "/my-app/static/css/main.3a976902.css.map",
-    "main.a2961a9f.js.map": "/my-app/static/js/main.a2961a9f.js.map"
+    "main.css": "/static/css/main.1197a87e.css",
+    "main.js": "/static/js/main.a2961a9f.js",
+    "static/media/top-view-meals-tasty-yummy-different-pastries-dishes-brown-surface.jpg": "/static/media/top-view-meals-tasty-yummy-different-pastries-dishes-brown-surface.29b3af734950ef6a74f6.jpg",
+    "static/media/top-view-sliced-shaurma-delicious-meat-sandwich-inside-brown-plate-black2.jpg": "/static/media/top-view-sliced-shaurma-delicious-meat-sandwich-inside-brown-plate-black2.0688e92860abe844a3b6.jpg",
+    "static/media/vegetables-set-left-black-slate.jpg": "/static/media/vegetables-set-left-black-slate.f28aca96eef193d9160d.jpg",
+    "index.html": "/index.html",
+    "main.1197a87e.css.map": "/static/css/main.1197a87e.css.map",
+    "main.a2961a9f.js.map": "/static/js/main.a2961a9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a976902.css",
+    "static/css/main.1197a87e.css",
     "static/js/main.a2961a9f.js"
   ]
 }
